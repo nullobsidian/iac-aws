@@ -5,6 +5,8 @@ ENV HOME /home/$USER
 ENV ANSIBLE_VERSION "2.8.6"
 ENV TERRAFORM_VERSION "0.12.12"
 
+LABEL version="1.0.0"
+
 RUN apk add --update \
     sudo \
     git \
